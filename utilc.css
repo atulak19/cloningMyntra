@@ -1,0 +1,32 @@
+.flex {
+    display: flex;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.upperCase {
+    text-transform: uppercase;
+}
+
+.semiBold {
+    font-weight: bolder;
+}
+
+.justifyContent {
+    justify-content: space-between;
+}
+
+.mx-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section1 {
+    background-color: rgb(255, 255, 255);
+}

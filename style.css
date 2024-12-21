@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@700&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    background-color: white;
+}
+
+.left img {
+    height: 40px;
+    width: 60px;
+}
+
+.container {
+      padding: .3vw 5vw;
+}
+
+.left ul li {
+    padding: 0 15px;
+    list-style: none;
+    font-size: 14px;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: sticky; 
+    top: 0;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+.search {
+    padding: 4px 8px;
+    background-color: rgb(230, 229, 229);
+    border: 0.1px solid black;
+    width: 22vw;
+    border-radius: 5px;
+    padding: 5px 17px;
+}
+
+.homeimg {
+    width: 90vw;
+    margin: 50px 0;
+    padding-left: 0px;
+}
+
+.itemImg {
+    width: 277px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4vw 0;
+}
+
+.search-container {
+    position: relative;
+    width: 400px;
+    margin-left: 0;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul li:hover{
+    text-decoration:underline;
+    color: rgb(255, 58, 170);
+    cursor: pointer;
+    text-decoration-color: palevioletred;
+}
+
+.suggestions-box {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
+
+.cpr{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container{
+    padding: .3vw 5vw;
+    margin: 0 10vw;
+    opacity: 0.6;
+    font-size: smaller;
+}
